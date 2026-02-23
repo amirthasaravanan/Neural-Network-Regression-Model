@@ -46,6 +46,8 @@ Evaluate the model with the testing data.
 ### Name: AMIRTHA VARSHINI M
 ### Register Number: 212224230017
 ```python
+#Name: AMIRTHA VARSHINI M
+#Register Number: 212224230017
 class NeuralNet(nn.Module):
     def __init__(self):
         super().__init__()
@@ -65,6 +67,8 @@ amirtha_brain=NeuralNet()
 criterion = nn.MSELoss()
 optimizer = optim.RMSprop(amirtha_brain.parameters(), lr=0.001)
 
+#Name: AMIRTHA VARSHINI M
+#Register Number: 212224230017
 def train_model(amirtha_brain, X_train, y_train, criterion, optimizer, epochs=2000):
     for epoch in range(epochs):
         optimizer.zero_grad()
